@@ -1,0 +1,2 @@
+Nozzle Type: 0.6 Nozzle-X 
+Extruder: Galileo 2 

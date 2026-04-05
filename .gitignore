@@ -1,0 +1,30 @@
+# ── Runtime & generated data ──────────────────────────────────────────────────
+logs/
+*.log
+gcodes/
+database/
+comms/
+backup/
+systemd/
+misc/
+
+# ── Moonraker instance identifiers (Pi-local, must not be overwritten by git) ─
+.moonraker.uuid
+moonraker.asvc
+
+# ── Klipper auto-generated config backups (redundant — printer.cfg is canonical)
+config/printer-*.cfg
+config/config-*.zip
+
+# ── Shake&Tune results (binary plots/CSV, not config) ─────────────────────────
+config/ShakeTune_results/
+
+# ── macOS metadata ─────────────────────────────────────────────────────────────
+.DS_Store
+
+# ── Auto-generated backup files ───────────────────────────────────────────────
+*.bkp
+
+# ── Editor temp files ──────────────────────────────────────────────────────────
+*.swp
+*.tmp
