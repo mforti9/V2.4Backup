@@ -28,3 +28,6 @@ config/ShakeTune_results/
 # ── Editor temp files ──────────────────────────────────────────────────────────
 *.swp
 *.tmp
+
+# Persistent save_variables store (Pi-local runtime state)
+config/variables.cfg
